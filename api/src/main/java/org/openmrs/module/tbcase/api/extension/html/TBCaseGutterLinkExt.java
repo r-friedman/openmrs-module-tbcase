@@ -17,7 +17,7 @@ public class TBCaseGutterLinkExt extends LinkExt {
 
 	@Override
 	public String getUrl() {
-		return "module/tbcase/admin/reportSelection.jsp";
+		return "module/tbcase/admin/reportSelection.list";
 	}
 
 }

@@ -23,7 +23,7 @@
 				<column name="reportId" />
 			</key>
 			 <list-index column="parameter_id"/>
-			<composite-element class="TBCaseReportParameter">
+			<composite-element class="TBCaseParameter">
 				<property name="displayName" type="string" column="display_name" />
 				<property name="name" type="string" column="name" not-null="true" />
 				<property name="valueClass" type="class" column="class" not-null="true" />
